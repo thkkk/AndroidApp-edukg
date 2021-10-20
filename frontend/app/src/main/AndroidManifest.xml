@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frontend">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FrontEnd">
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="true"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.FrontEnd.NoActionBar" />
+        <activity
+            android:name=".RecommendInputActivity"
+            android:exported="true" />
+        <activity android:name=".ReviewActivity" />
+        <activity
+            android:name=".ContestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ContestInputActivity"
+            android:exported="true" />
+        <activity android:name=".MarkActivity" />
+        <activity
+            android:name=".RecordActivity"
+            android:exported="true"
+            android:label="@string/title_activity_record"
+            android:theme="@style/Theme.FrontEnd.NoActionBar" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.FrontEnd.NoActionBar" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FrontEnd.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+
+            <!--
+            intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter
+            -->
+        </activity>
+        <activity android:name=".DiscoveryActivity" />
+        <activity android:name=".QuestionAndAnswerActivity" />
+        <activity android:name=".DefaultListActivity" />
+    </application>
+
+</manifest>

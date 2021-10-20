@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.example.frontend.ui.search.SearchView
+        android:id="@+id/mySearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:searchBlockColor="#ffffff"
+        app:searchBlockHeight="150"
+        app:textColorSearch="#9b9b9b"
+        app:textHintSearch="@string/search_hint"
+        app:textSizeSearch="5dp" />
+
+    <com.example.frontend.ui.home.DragGridView
+        android:id="@+id/subject_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="30dp"
+        android:gravity="fill_vertical"
+        android:layout_marginTop="20dp"
+   />
+</LinearLayout>
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".ui.home.HomeFragment">-->
+
+<!--    <com.example.frontend.ui.home.DragGridView-->
+<!--        android:id="@+id/subject_grid"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:horizontalSpacing="10dp"-->
+<!--        android:numColumns="3"-->
+<!--        android:verticalSpacing="30dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:listSelector="#00000000"-->
+<!--        android:cacheColorHint="#00000000"/>-->
+<!--&lt;!&ndash;    @color/xui_transparent&ndash;&gt;-->
+
+<!--    <com.example.frontend.ui.search.SearchView-->
+<!--        android:id="@+id/mySearchView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:searchBlockColor="#ffffff"-->
+<!--        app:searchBlockHeight="150"-->
+<!--        app:textColorSearch="#9b9b9b"-->
+<!--        app:textHintSearch="@string/search_hint"-->
+<!--        app:textSizeSearch="5dp" />-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

@@ -1,0 +1,206 @@
+<!--字符串常量，中文版本-->
+<resources>
+    <string name="app_name" translatable="false">Edukg教育服务</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="remember_password">记住密码</string>
+    <string name="username">用户名</string>
+    <string name="sign_in">登录</string>
+    <string name="log_out">登出</string>
+    <string name="register">注册</string>
+    <string name="title_activity_login">登录页面</string>
+    <string name="prompt_email">电子邮件</string>
+    <string name="prompt_password">密码</string>
+    <string name="confirm_password">密码确认</string>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">欢迎!</string>
+    <string name="invalid_username">用户名无效</string>
+    <string name="invalid_password">密码长度必须大于5</string>
+    <string name="login_failed">登录失败，请再次尝试</string>
+    <string name="Return">返回</string>
+
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">功能</string>
+    <string name="title_notifications">通知</string>
+
+    <string name="search_hint">搜索知识</string>
+    <string name="app_label">XWT</string>
+
+    <string name="func_QA">知识问答</string>
+    <string name="func_QA_detail">一个问答机器人</string>
+    <string name="func_test">专项测试</string>
+    <string name="func_test_detail">根据知识点生成一套题目</string>
+    <string name="func_outline">知识梳理</string>
+    <string name="func_outline_detail">自动构建出一套复习提纲</string>
+    <string name="func_recommend">试题推荐</string>
+    <string name="func_recommend_detail">根据历史记录进行试题推荐</string>
+    <string name="func_discovery">知识发现</string>
+    <string name="func_discovery_detail">发现文本中的基础教育知识点</string>
+
+    <string name="cancel">取消</string>
+    <string name="yes">确认</string>
+
+    <string name="Chinese">语文</string>
+    <string name="Math">数学</string>
+    <string name="English">英语</string>
+    <string name="Physics">物理</string>
+    <string name="Chemistry">化学</string>
+    <string name="Biology">生物</string>
+    <string name="Politics">政治</string>
+    <string name="History">历史</string>
+    <string name="Geometry">地理</string>
+    <string name="language">语言</string>
+    <string name="edit_your_information">"编辑个人信息"</string>
+    <string name="change_password">"修改密码"</string>
+    <string name="favorites">"收藏"</string>
+    <string name="history_records">"历史记录"</string>,
+    <string name="system_theme">"系统主题"</string>,
+    <string name="message_notification">"通知"</string>
+
+    <string name="title_activity_search">搜索</string>
+
+    <string name="select_language">请选择语言</string>
+    <string name="tips">提示</string>
+    <string name="ask_log_out">你确认要退出登录吗？</string>
+
+    <string name="tips_discovery">请输入你希望搜索知识点的文本</string>
+    <string name="discovery">发现</string>
+
+    <string name="tips_askquestion">请输入你想知道的问题</string>
+    <string name="send">发送</string>
+
+    <string name="QA_hello_1">你可以试着问我一些问题，但要告诉我问题所属的学科哦~</string>
+    <string name="QA_hello_2">你好，智能机器人小Q很高兴为你服务！</string>
+    <string name="QA_hello_3">君子之学必好问，问与学，相辅而行者也。非学，无以致疑；非问，无以广识。</string>
+    <string name="QA_hello_4">怀疑能把昨天的信仰摧毁，也能替明日的信仰开路。</string>
+    <string name="QA_hello_5">善问者，如攻坚木；先其易者，后其节目。</string>
+
+    <string name="nothingSearched">什么也没搜到呢</string>
+    <string name="searchTime">搜索耗时: </string>
+
+    <string name="network_error">网络连接失败</string>
+    <string name="password_not_equal">两次输入的密码不一致，请再次尝试</string>
+
+    <string name="QA_fail_1">对不起，我暂时还不知道这个问题的答案~</string>
+    <string name="QA_fail_2">没有找到结果哦，小Q建议你询问更强大的搜索引擎www</string>
+    <string name="QA_fail_3">很遗憾地告诉你我无法在这个问题为你提供帮助，希望求知的渴望最终能指引你抵达这个问题的终点！</string>
+
+    <string name="add_a_subject">请选择你想要添加的学科</string>
+    <string name="discovery_entity">知识点列表</string>
+    <string name="Discovery_fail">对不起，我没有从这段文字中识别出有效的基础知识点。</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+
+    <string name="tab_text_1">详情</string>
+    <string name="tab_text_2">关联</string>
+    <string name="tab_text_3">试题</string>
+
+    <string name="change_password_success">修改密码成功</string>
+    <string name="change_password_fail">修改密码失败，请重试</string>
+
+    <string name="mark_success">收藏成功</string>
+    <string name="mark_fail">收藏失败，请重试</string>
+    <string name="unmark_success">取消收藏成功</string>
+    <string name="unmark_fail">取消收藏失败，请重试</string>
+
+    <string name="screen">筛选</string>
+    <string name="mark_knowledge">知识点</string>
+    <string name="mark_problem">习题</string>
+    <string name="question_unmark">你确认要取消收藏吗?</string>
+    <string name="course">学科</string>
+
+    <string name="search">搜索</string>
+
+    <string name="next_question">下一题</string>
+    <string name="noNext">没有下一个了</string>
+    <string name="noPrevious">没有上一个了</string>
+    <string name="notLoaded">没有试题哦</string>
+
+
+    <string name="connection_failed">网络连接失败</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_record">历史记录</string>
+
+    <string name="record_tab_1">实体</string>
+    <string name="record_tab_2">试题</string>
+
+    <string name="all_subjects">所有学科</string>
+    <string name="local_cache">本地缓存</string>
+    <string name="score">得分</string>
+
+    <string name="title_activity_contest_input">专项测试</string>
+    <string name="contest_name_hint">输入希望学习的知识点</string>
+    <string name="contest_num_hint">输入希望测试的题目数</string>
+    <string name="start">开始</string>
+    <string name="numberIllegal">输入数字不合法</string>
+    <string name="illegalFormat">输入格式可能有问题</string>
+
+    <string name="large_text">hahaha</string>
+    <string name="numberLessThan">数目应小于26</string>
+    <string name="notSubmitted">点击右下角进行提交</string>
+    <string name="notFinished">题目未完成哦</string>
+
+    <string name="no_question">对不起，暂时没有相关习题</string>
+    <string name="select_setting">筛选设置</string>
+    <string name="order_setting">排序设置</string>
+    <string name="refresh">刷新</string>
+    <string name="visited_or_not">是否访问过</string>
+    <string name="only_visited">仅显示访问过的知识点</string>
+    <string name="only_not_visited">仅显示未访问过的知识点</string>
+    <string name="both_visited">不设置此筛选项</string>
+    <string name="subject_filter">学科筛选</string>
+    <string name="only_selected_subject">只展示选中的学科</string>
+    <string name="entity_length">按知识点名称长度排序</string>
+    <string name="entity_dictionary">按知识点字典序排序</string>
+    <string name="no_sort">不排序</string>
+    <string name="order_method">排序方式</string>
+    <string name="positive_order">正序</string>
+    <string name="negative_order">倒序</string>
+
+    <string name="knowledge_point">知识点</string>
+    <string name="begin_review">开始梳理</string>
+    <string name="suggest">推荐</string>
+    <string name="look_for_details">查看详情</string>
+    <string name="continue_review">继续梳理</string>
+    <string name="no_related">对不起，该知识点暂时没有与其他知识点建立关联</string>
+
+
+    <string name="recommand_hint">本功能将根据您以往的浏览记录以及错题记录，在后台经过算法生成一套推荐试题，用于全面评估您的学习情况</string>
+
+    <string name="share_success">分享成功</string>
+    <string name="share_fail">分享失败</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="get_token_success">微博授权成功</string>
+    <string name="get_token_fail">微博授权失败</string>
+    <string name="get_token_cancel">微博授权取消</string>
+    <string name="default_share_text" translatable="false">我正在Edukg教育服务端学习知识点</string>
+    <string name="title_activity_history">历史记录</string>
+    <string name="default_share_question_text" translatable="false">我正在Edukg教育服务端学习试题</string>
+    <string name="no_info">您暂时没有收到通知</string>
+
+    <string name="questionLoad">试题加载较慢，请稍等！</string>
+    <string name="password_too_short">密码长度过短</string>
+    <string name="username_too_short">用户名长度过短</string>
+
+</resources>

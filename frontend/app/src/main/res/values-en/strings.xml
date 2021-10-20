@@ -1,0 +1,186 @@
+<!--字符串常量，英文版本-->
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="remember_password">Remember me</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="log_out">Log out</string>
+    <string name="register">Register</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed, please try it again"</string>
+    <string name="Return">Return</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="search_hint">search what you want to know</string>
+    <string name="app_label">XWT</string>
+
+    <string name="func_QA">Knowledge Q&amp;A</string>
+    <string name="func_QA_detail">A Q&amp;A bot</string>
+    <string name="func_test">Test</string>
+    <string name="func_test_detail">Generate a set of questions based on knowledge points</string>
+    <string name="func_outline">Outline</string>
+    <string name="func_outline_detail">Automatically build a set of review outlines</string>
+    <string name="func_recommend">Questions recommendation</string>
+    <string name="func_recommend_detail">Recommend questions based on historical records</string>
+
+    <string name="cancel">cancel</string>
+    <string name="yes">yes</string>
+    <string name="Chinese">Chinese</string>
+    <string name="Math">Math</string>
+    <string name="English">English</string>
+    <string name="Physics">Physics</string>
+    <string name="Chemistry">Chemistry</string>
+    <string name="Biology">Biology</string>
+    <string name="Politics">Politics</string>
+    <string name="History">History</string>
+    <string name="Geometry">Geography</string>
+    <string name="language">language</string>
+    <string name="edit_your_information">Edit personal information</string>
+    <string name="change_password">Change password</string>
+    <string name="favorites">Favorites</string>
+    <string name="history_records">Historical records</string>
+    <string name="system_theme">Theme</string>
+    <string name="message_notification">Message notification</string>
+    <string name="func_discovery">Discovery</string>
+    <string name="func_discovery_detail">Discover the basic education knowledge points in the text</string>
+    <string name="select_language">Please select a language</string>
+    <string name="tips">Tips</string>
+    <string name="ask_log_out">Are you sure you want to log out?</string>
+    <string name="tips_discovery">Please enter the text you want to search for knowledge points</string>
+    <string name="discovery">Discover</string>
+
+    <string name="nothingSearched">Nothing searched</string>
+
+    <string name="title_activity_search">Search</string>
+    <string name="searchTime">Search time consuming: </string>
+    <string name="tips_askquestion">Please enter the question you want to know</string>
+    <string name="send">send</string>
+    <string name="QA_hello_1">You can try to ask me some questions, but please tell me the subject of the question~</string>
+    <string name="QA_hello_2">Hello, intelligent robot Q, glad to serve you!</string>
+    <string name="QA_hello_3">The learning of a gentleman must be easy to ask. Asking and learning comlement each other. No doubt, no learning; No question, no knowledge.</string>
+    <string name="QA_hello_4">Doubt can destroy the faith of yesterday and open the way for the faith of tomorrow.</string>
+    <string name="QA_hello_5">People who are good at asking questions are like chopping hard trees. They start with the easy places first, and then attack the difficult points.</string>
+
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tab_text_1">detail</string>
+    <string name="tab_text_2">related</string>
+    <string name="tab_text_3">questions</string>
+
+    <string name="network_error">Network connection error</string>
+    <string name="password_not_equal">The two passwords are inconsistent. Please try again</string>
+    <string name="QA_fail_1">Sorry, I don\'t know the answer to this question yet</string>
+    <string name="QA_fail_2">I don\'t find the results. Q suggest you ask a more powerful search engine for help</string>
+    <string name="QA_fail_3">I\'m sorry to tell you that I can\'t help you with this problem. I hope the desire for knowledge can finally guide you to the end of this problem</string>
+    <string name="add_a_subject">Please select a subject you want to add</string>
+    <string name="Discovery_fail">Sorry, I didn\'t recognize the effective basic knowledge points from this paragraph.</string>
+    <string name="discovery_entity">List of entities</string>
+    <string name="old_password">old password</string>
+    <string name="new_password">new password</string>
+    <string name="change_password_success">Change password successfully!</string>
+    <string name="change_password_fail">Change password fail, please try it again.</string>
+    <string name="mark_success">mark successfully</string>
+    <string name="mark_fail">mark failed, please try it again.</string>
+    <string name="unmark_success">unmark successfully</string>
+    <string name="unmark_fail">unmark failed, please try it again.</string>
+    <string name="screen">screen</string>
+    <string name="mark_knowledge">knowledge points</string>
+    <string name="mark_problem">problems</string>
+    <string name="question_unmark">Are you sure you want to cancel the collection？</string>
+
+    <string name="course">course</string>
+    <string name="search">search</string>
+
+    <string name="next_question">Next question</string>
+    <string name="noNext">No more questions</string>
+    <string name="noPrevious">No previous questions</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="notLoaded">No questions here.</string>
+
+
+    <string name="record_tab_1">Entities</string>
+    <string name="record_tab_2">Questions</string>
+
+    <string name="title_activity_record">Histories record</string>
+    <string name="all_subjects">all subjects</string>
+    <string name="local_cache">Local Cache</string>
+    <string name="score">Score</string>
+
+    <string name="title_activity_contest_input">Contest</string>
+    <string name="contest_name_hint">Enter the knowledge points you want to learn</string>
+    <string name="contest_num_hint">Enter the number of questions you want to test</string>
+    <string name="start">Start</string>
+    <string name="numberIllegal">Illegal number.</string>
+    <string name="illegalFormat">Illegal format.</string>
+
+    <string name="numberLessThan">The number should be less than 26</string>
+    <string name="notSubmitted">Not submitted</string>
+    <string name="notFinished">Not finished</string>
+    <string name="no_question">Sorry, there are no relevant exercises for this knowledge point</string>
+    <string name="select_setting">Filter settings</string>
+    <string name="order_setting">Order settings</string>
+    <string name="refresh">refresh</string>
+    <string name="visited_or_not">visited or not</string>
+    <string name="only_visited">only visited</string>
+    <string name="only_not_visited">only not visited</string>
+    <string name="both_visited">Both</string>
+    <string name="subject_filter">subjects filter</string>
+    <string name="entity_length">sort  by length</string>
+    <string name="entity_dictionary">sort by dictionary</string>
+    <string name="no_sort">no sort</string>
+    <string name="positive_order">positive order</string>
+    <string name="negative_order">negative order</string>
+    <string name="order_method">sort method</string>
+    <string name="only_selected_subject">only selected subjects</string>
+    <string name="knowledge_point">knowledge point</string>
+    <string name="begin_review">Review</string>
+    <string name="suggest">suggest</string>
+    <string name="look_for_details">Look for details</string>
+    <string name="continue_review">continue to review</string>
+    <string name="no_related">Sorry, this knowledge point is not associated with other knowledge points for the time being</string>
+
+
+    <string name="recommand_hint">This function will algorithmically generate a set of recommended questions in the background based on your previous browsing history and error records, which will be used to fully assess your learning.</string>
+
+    <string name="share_success">Share success</string>
+    <string name="share_fail">Share fail</string>
+    <string name="share_cancel">Share cancel</string>
+    <string name="get_token_success">Weibo authorize success</string>
+    <string name="get_token_fail">Weibo authorize fail</string>
+    <string name="get_token_cancel">Weibo authorize cancel</string>
+
+    <string name="title_activity_history">History</string>
+    <string name="no_info">You haven\'t been notified yet</string>
+
+    <string name="questionLoad">The questions are slow to load, please wait a moment!</string>
+    <string name="password_too_short">The password is too short.</string>
+    <string name="username_too_short">The username is too short.</string>
+</resources>

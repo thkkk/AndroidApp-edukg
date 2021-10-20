@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.sinaweibosdk:core:11.8.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba1e1f6a9dddd0c6a10fd862255755b/jetified-core-11.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba1e1f6a9dddd0c6a10fd862255755b/jetified-core-11.8.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba1e1f6a9dddd0c6a10fd862255755b/jetified-core-11.8.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.sinaweibosdk/core/11.8.1/277af8504b021735b4a2a5579c8e5f7a21020b28/core-11.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

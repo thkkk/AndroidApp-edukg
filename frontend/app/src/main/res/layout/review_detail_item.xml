@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingHorizontal="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/review_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginRight="5dp"
+        android:maxLines="10"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="hope our java project can get a grade of A"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/review_detail_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:text="entity_type"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/review_detail_look"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/look_for_details"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/review_detail_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_review"
+            />
+    </LinearLayout>
+
+</LinearLayout>
